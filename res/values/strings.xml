@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Halaal</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_splash_screen">Splash Screen</string>
+    <string name="title_activity_menu_utama">Halaal App</string>
+    <string name="title_activity_tentang">Tentang</string>
+    <string name="title_activity_hubungi_kami">Hubungi Kami</string>
+    <string name="title_activity_main_form">Form Utama</string>
+    <string name="title_activity_hasil_form">Form Hasil</string>
+
+    <!-- Sliding menu drawer -->
+    <array name="nav_drawer_items">
+        <item>Beranda</item>
+        <item>Rekomendasi Kuliner</item>
+        <item>Berita</item>
+        <item>Hubungi Kami</item>
+        <item>Tentang</item>
+        <item>Bantuan</item>
+    </array>
+
+    <!-- Sliding menu drawer icons -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_pages</item>
+        <item>@drawable/ic_photos</item>
+        <item>@drawable/ic_whats_hot</item>
+        <item>@drawable/ic_people</item>
+        <item>@drawable/ic_communities</item>
+    </array>
+
+    <!-- Description -->
+    <string name="desc_list_item_icon"></string>
+
+    <string-array name="arr_harga">
+        <item>--Lewatkan--</item>
+        <item>Sangat murah</item>
+        <item>Murah</item>
+        <item>Standar</item>
+        <item>Mahal</item>
+        <item>Sangat mahal</item>
+    </string-array>
+    <string-array name="arr_lama">
+        <item>--Lewatkan--</item>
+        <item>Sangat cepat</item>
+        <item>Cepat</item>
+        <item>Standar</item>
+        <item>Lama</item>
+        <item>Sangat lama</item>
+    </string-array>
+    <string-array name="arr_menu">
+        <item>--Lewatkan--</item>
+        <item>Sangat banyak</item>
+        <item>Banyak</item>
+        <item>Standar</item>
+        <item>Sedikit</item>
+        <item>Sangat sedikit</item>
+    </string-array>
+    <string-array name="arr_sejarah">
+        <item>--Lewatkan--</item>
+        <item>Ya</item>
+        <item>Tidak</item>
+    </string-array>
+    <string-array name="arr_buka">
+        <item>--Lewatkan--</item>
+        <item>Sangat lama</item>
+        <item>Lama</item>
+        <item>Standar</item>
+        <item>Singkat</item>
+        <item>Sangat singkat</item>
+    </string-array>
+    <string-array name="arr_citarasa">
+        <item>Asin</item>
+        <item>Pedas</item>
+        <item>Manis</item>
+    </string-array>
+    <string-array name="arr_khas">
+        <item>Nusantara</item>
+        <item>Western</item>
+    </string-array>
+
+    <string name="title_activity_pra_berita">PraBerita</string>
+
+</resources>

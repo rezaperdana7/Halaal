@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#fffefe"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <TextView
+            android:id="@+id/judul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dip"
+            android:paddingTop="5dip"
+            android:textColor="#333333"
+            android:textSize="20dip"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="20dp"
+            android:background="#f5f2f2"
+            android:gravity="center"
+            android:text="Lokasi Dalam Maps"
+            android:textColor="#333333"
+            android:layout_marginBottom="10dip"
+            android:layout_marginTop="10dip" />
+
+        <fragment
+            android:id="@+id/mapsaya"
+            android:name="com.google.android.gms.maps.MapFragment"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_weight="1.17" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="20dp"
+            android:layout_marginBottom="10dip"
+            android:layout_marginTop="10dip"
+            android:background="#f5f2f2"
+            android:gravity="center"
+            android:text="Alamat"
+            android:textColor="#333333" />
+
+        <TextView
+            android:id="@+id/detail"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#999999"
+            android:textSize="12dip"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="20dp"
+            android:layout_marginBottom="10dip"
+            android:layout_marginTop="10dip"
+            android:background="#f5f2f2"
+            android:gravity="center"
+            android:text="Khas"
+            android:textColor="#333333" />
+
+        <TextView
+            android:id="@+id/khas"
+             android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#999999"
+            android:textSize="12dip"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="20dp"
+            android:layout_marginBottom="10dip"
+            android:layout_marginTop="10dip"
+            android:background="#f5f2f2"
+            android:gravity="center"
+            android:text="Suasana"
+            android:textColor="#333333" />
+        <TextView
+            android:id="@+id/suasana"
+             android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#999999"
+            android:textSize="12dip"
+            android:textStyle="bold" /> />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="20dp"
+            android:layout_marginBottom="10dip"
+            android:layout_marginTop="10dip"
+            android:background="#f5f2f2"
+            android:gravity="center"
+            android:text="Citarasa"
+            android:textColor="#333333" />
+
+        <TextView
+            android:id="@+id/citarasa"
+             android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#999999"
+            android:textSize="12dip"
+            android:textStyle="bold" /> />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="20dp"
+            android:layout_marginBottom="10dip"
+            android:layout_marginTop="10dip"
+            android:background="#f5f2f2"
+            android:gravity="center"
+            android:text="Review"
+            android:textColor="#333333" />
+
+        <TextView
+            android:id="@+id/content2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="2dip"
+            android:padding="3dip"
+            android:textColor="#333333"
+            android:textSize="13dip" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="20dp"
+            android:layout_marginBottom="10dip"
+            android:layout_marginTop="10dip"
+            android:background="#f5f2f2"
+            android:gravity="center"
+            android:text="Gambar"
+            android:textColor="#333333" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="250dip"
+            android:layout_height="150dip"
+            android:src="@drawable/no_image" />
+    </LinearLayout>
+
+</ScrollView>

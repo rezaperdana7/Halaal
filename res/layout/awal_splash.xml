@@ -1,0 +1,31 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/lin_lay"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/splash_background"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".SplashScreen" >
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="fill_parent"
+        android:layout_height="204dp"
+        android:src="@drawable/action" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="5dip"
+        android:shadowColor="#000"
+        android:text="HALAAL IS THE WAY"
+        android:textColor="#fff"
+        android:textSize="20dip"
+        android:textStyle="bold"
+        android:typeface="normal"
+        android:background="@drawable/back" />
+
+</LinearLayout>
